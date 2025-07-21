@@ -77,3 +77,70 @@
 
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>جهاز كمبيوتر احترافي</title>
+  <style>
+    body {
+      background-color: #111;
+      color: #fff;
+      font-family: Arial;
+      text-align: center;
+      padding: 40px;
+    }
+
+    .pc-card {
+      background-color: #1a1a1a;
+      border-radius: 15px;
+      padding: 20px;
+      box-shadow: 0 0 20px rgba(0, 255, 255, 0.1);
+      max-width: 400px;
+      margin: auto;
+    }
+
+    .pc-card img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+
+    .pc-card h2 {
+      color: #0ff;
+    }
+
+    .pc-card p {
+      color: #ccc;
+    }
+
+    .price {
+      font-size: 20px;
+      font-weight: bold;
+      color: #0f0;
+      margin-top: 10px;
+    }
+
+    .buy-btn {
+      margin-top: 15px;
+      padding: 10px 25px;
+      background-color: #0ff;
+      color: #000;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .buy-btn:hover {
+      background-color: #00cccc;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="pc-card">
+    <img src="https://chat.openai.com/c/file-00000000a70461f4952455bcd6e1c2c4" alt="جهاز كمبيوتر احترافي">
+    <h2>NZXT RGB Gaming PC</h2>
+    <p>معالج Ryzen، تبريد مائي، إضاءة RGB، كرت شاشة قوي</p>
+    <div class
