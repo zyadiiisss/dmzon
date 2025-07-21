@@ -31,7 +31,7 @@
 <body>
   <h1>أهلاً بك في موقعي 🎉</h1>
   <img src="https://via.placeholder.com/300" alt="صورة تجريبية" />
-  <p>أنا أتعلم برمجة المواقع مع ChatGPT!</p>
+  <p>أنا أتعلم برمجة المواقع مع !</p>
   <button onclick="alert('شكرًا لزيارتك!')">اضغط هنا</button>
 </body>
 </html>https://username.github.io/my-website/
