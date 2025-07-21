@@ -1,37 +1,79 @@
 <!DOCTYPE html>
 <html lang="ar">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>موقعي الشخصي</title>
+  <meta charset="UTF-8">
+  <title>أجهزة كمبيوتر</title>
   <style>
     body {
       font-family: Arial;
+      background-color: #f5f5f5;
       text-align: center;
-      background-color: #f0f0f0;
-      padding: 50px;
+      padding: 20px;
     }
     h1 {
       color: #333;
     }
-    button {
-      padding: 10px 20px;
-      font-size: 18px;
-      background-color: #008cff;
-      color: white;
-      border: none;
-      border-radius: 8px;
-      cursor: pointer;
+    .pc-container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin-top: 30px;
     }
-    button:hover {
-      background-color: #005ecf;
+    .pc-card {
+      background-color: white;
+      width: 250px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      padding: 15px;
+    }
+    .pc-card img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+    .pc-card h3 {
+      margin: 10px 0;
+      color: #0077cc;
+    }
+    .pc-card p {
+      font-size: 14px;
+      color: #666;
+    }
+    .price {
+      font-weight: bold;
+      color: green;
+      margin-top: 10px;
     }
   </style>
 </head>
 <body>
-  <h1>أهلاً بك في موقعي 🎉</h1>
-  <img src="https://via.placeholder.com/300" alt="صورة تجريبية" />
-  <p>أنا أتعلم برمجة المواقع مع !</p>
-  <button onclick="alert('شكرًا لزيارتك!')">اضغط هنا</button>
+  <h1>📦 أجهزة كمبيوتر متاحة</h1>
+
+  <div class="pc-container">
+
+    <div class="pc-card">
+      <img src="https://via.placeholder.com/250x150" alt="جهاز PC">
+      <h3>Gaming PC X1</h3>
+      <p>معالج i7، كرت RTX 3060، رام 16GB، تخزين 1TB SSD</p>
+      <div class="price">سعر: 25,000 جنيه</div>
+    </div>
+
+    <div class="pc-card">
+      <img src="https://via.placeholder.com/250x150" alt="جهاز PC">
+      <h3>Office PC Basic</h3>
+      <p>معالج i3، رام 8GB، تخزين 500GB HDD</p>
+      <div class="price">سعر: 8,500 جنيه</div>
+    </div>
+
+    <div class="pc-card">
+      <img src="https://via.placeholder.com/250x150" alt="جهاز PC">
+      <h3>Editing PC Pro</h3>
+      <p>Ryzen 7، كرت RX 6700، رام 32GB، تخزين 1TB SSD</p>
+      <div class="price">سعر: 32,000 جنيه</div>
+    </div>
+
+  </div>
+
 </body>
-</html>https://username.github.io/my-website/
+</html>
